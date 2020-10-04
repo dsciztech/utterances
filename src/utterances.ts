@@ -54,7 +54,7 @@ async function bootstrap() {
 
   enableReactions(!!user);
 
-  const submit = async (markdown: string) => {
+  /*const submit = async (markdown: string) => {
     await assertOrigin();
     if (!issue) {
       issue = await createIssue(
@@ -72,7 +72,7 @@ async function bootstrap() {
   };
 
   const newCommentComponent = new NewCommentComponent(user, submit);
-  timeline.element.appendChild(newCommentComponent.element);
+  timeline.element.appendChild(newCommentComponent.element);*/
 }
 
 bootstrap();
